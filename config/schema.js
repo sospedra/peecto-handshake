@@ -69,7 +69,7 @@ module.exports = convict({
   allow_discovery: {
     doc: "Allow discovery of peers",
     format: Boolean,
-    default: true,
+    default: false,
     arg: "allowDiscovery",
   },
   proxied: {
